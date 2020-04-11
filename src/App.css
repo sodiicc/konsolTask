@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.car-btn {
+  background-color: rgb(183, 207, 171);
+  border-radius: 5px;
+  outline: none;
+  border: 3px outset rgb(81, 139, 71);
+  margin: 10px;
+  width: 50px;
+}
+.car-btn:active {
+  border: 3px inset rgb(81, 139, 71);
+}
+
+.car-wrapper {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 300px;
+  border: 2px solid brown;
+}
+
+.bairaka {
+  background-color: rgb(228, 236, 223);
+  border-radius: 5px;
+  outline: none;
+  border: 3px outset rgb(81, 139, 71);
+  margin: 10px auto;
+  width: 400px;
+}
