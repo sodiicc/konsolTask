@@ -30,7 +30,7 @@ const App = () => {
     <StyledDiv className="App">
       {!editPosition ? (
         <div>
-          <h1>Resize your text</h1>
+          <h1>Text Layout</h1>
           <div key={5} data-for="button" data-tip="Minimum 50 characters">
             <TextArea
               placeholder="Please, enter your text here. Minimum 50 characters"
@@ -53,7 +53,7 @@ const App = () => {
         </div>
       ) : (
         <div>
-          <h1>Layout page</h1>
+          <Button style={{float: 'left', marginLeft: '20px'}} onClick={() => setEdit(0)}>Back</Button><h1>Layout page</h1>
           {editPosition === 1 ? (
             <div>
               <h2>You see 1 column here</h2>
@@ -180,6 +180,9 @@ const StyledDiv = styled.div`
   }
   button {
     margin: 5px;
+  }
+  h1 {
+    display: inline-block;
   }
   h2 {
     color: white;
